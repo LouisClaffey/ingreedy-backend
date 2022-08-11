@@ -6,6 +6,8 @@ import java.util.List;
 
 public interface RecipeRepository extends JpaRepository<Recipes, Integer> {
 
+    List<Recipes> findAll();
+
     List<Recipes> findByGrainsAndProteinsAndVegetablesAndDairiesAndFruits (String g, String p, String v, String d, String f);
 
 }
