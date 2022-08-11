@@ -7,8 +7,8 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200/")
-//@CrossOrigin(origins = "https://in-greedy-frontend-m94kgsexd-louisclaffey.vercel.app/" )
+//@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://in-greedy-frontend-m94kgsexd-louisclaffey.vercel.app/" )
 public class IngredientController {
 
     @Autowired
