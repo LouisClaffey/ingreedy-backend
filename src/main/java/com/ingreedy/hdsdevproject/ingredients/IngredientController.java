@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 ////@CrossOrigin(origins = "http://localhost:4200/")
-//@CrossOrigin(origins = "https://ingreedy.vercel.app/" )
+@CrossOrigin(origins = "https://ingreedy.vercel.app/" )
 public class IngredientController {
 
     @Autowired
