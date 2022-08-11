@@ -20,7 +20,7 @@ public class IngredientController {
         return service.findMatchingRecipe();
     }
 
-    @PostMapping(path = "public.ingredients")
+    @PostMapping(path = "ingredients")
     public void add(@RequestBody Ingredients ingredients){
         service.save(ingredients);
     }
