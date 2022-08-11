@@ -23,7 +23,7 @@ public class RecipeController {
     }
 
 
-    @PostMapping(path = "recipes")
+    @PostMapping(path = "public.recipes")
     public void add(@RequestBody Recipes recipe){
         service.save(recipe);
     }
